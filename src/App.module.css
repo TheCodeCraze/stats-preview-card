@@ -1,0 +1,77 @@
+.card {
+  width: 1110px;
+  height: 446px;
+  background: var(--card-background);
+  display: flex;
+  border-radius: 8px;
+}
+
+.text {
+  width: 570px;
+  height: 100%;
+  padding: 71px 95px 59px 72px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 44px;
+}
+
+.title > span {
+  color: var(--violet-accent);
+}
+
+.description {
+  margin: 25px 0 72px;
+  padding-right: 15px;
+  font-weight: 400;
+  color: var(--main-paragraph);
+  line-height: 25px;
+}
+
+.info {
+  display: flex;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.category:nth-child(1) {
+  margin-right: 63px;
+}
+
+.category:nth-child(2) {
+  margin-right: 60px;
+}
+
+.total {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.name {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--stat-headings);
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.image {
+  width: 540px;
+  height: 100%;
+  background: url("/image-header-desktop.jpg") top left no-repeat
+    var(--violet-accent);
+  background-blend-mode: multiply;
+  border-radius: 0 8px 8px 0;
+}
