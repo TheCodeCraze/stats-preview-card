@@ -75,3 +75,87 @@
   background-blend-mode: multiply;
   border-radius: 0 8px 8px 0;
 }
+
+@media screen and (max-width: 1145px) {
+  .card {
+    width: 800px;
+    height: 321.44px;
+  }
+
+  .text {
+    width: 51.35%;
+    padding: 40px 32px 32px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .description {
+    margin: 16px 0 40px;
+  }
+
+  .category:nth-child(1),
+  .category:nth-child(2) {
+    margin-right: 24px;
+  }
+
+  .image {
+    width: 48.65%;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .card {
+    width: 350px;
+    height: 780px;
+    flex-direction: column-reverse;
+  }
+
+  .image {
+    width: 100%;
+    height: 240px;
+    background: url("/image-header-mobile.jpg") top left no-repeat
+      var(--violet-accent);
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .text {
+    width: 100%;
+    height: 540px;
+    align-items: center;
+  }
+
+  .title,
+  .description {
+    text-align: center;
+  }
+
+  .description {
+    padding-right: 0;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .category {
+    align-items: center;
+  }
+
+  .category:nth-child(1),
+  .category:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .card {
+    width: 327px;
+  }
+}

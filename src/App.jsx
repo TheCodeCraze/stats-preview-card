@@ -21,7 +21,7 @@ export const App = () => {
             <p className={styles.name}>templates</p>
           </div>
           <div className={styles.category}>
-            <h2 className={styles.total}>12m+</h2>
+            <h2 className={styles.total}>12M+</h2>
             <p className={styles.name}>queries</p>
           </div>
         </div>
